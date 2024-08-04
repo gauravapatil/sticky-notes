@@ -75,11 +75,22 @@ textarea {
     text-align: center;
 }
 #r_notes{
-    width: fit-content;
-    min-width: 200px;
-    height: 150px;
-    position: relative;
-    padding: 17px 17px 3px 3px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+}
+#button1{
+    display: flex;
+    justify-content: flex-end; /* Aligns items horizontally to the right */
+            align-items: flex-start;
+     border: none;
+    color: rgb(235, 17, 39);
+    cursor: pointer;
 }
 .notesNotAdded {
     color: black;
